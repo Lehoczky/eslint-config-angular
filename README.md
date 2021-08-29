@@ -19,6 +19,7 @@ npm install -D \
   eslint-plugin-import \
   eslint-plugin-jsdoc \
   eslint-plugin-rxjs \
+  eslint-plugin-simple-import-sort \
   eslint-plugin-sonarjs \
   eslint-plugin-unicorn
 ```

@@ -1,5 +1,12 @@
 module.exports = {
-  plugins: ["unicorn", "jsdoc", "import", "rxjs", "sonarjs"],
+  plugins: [
+    "unicorn",
+    "jsdoc",
+    "import",
+    "rxjs",
+    "simple-import-sort",
+    "sonarjs",
+  ],
   extends: [
     "eslint:recommended",
     "plugin:import/typescript",
@@ -183,6 +190,9 @@ module.exports = {
     "import/first": "warn",
     "import/no-duplicates": "warn",
     "import/newline-after-import": "warn",
+
+    // Simple import sort
+    "simple-import-sort/imports": "error",
 
     // SonarJS
     "sonarjs/no-all-duplicated-branches": "warn",
