@@ -1,5 +1,8 @@
 # eslint-config-angular
 
+[![NPM version](https://img.shields.io/npm/v/@lehoczky/eslint-config-angular.svg)](https://www.npmjs.com/package/@lehoczky/eslint-config-angular)
+![docs status](https://github.com/lehoczky/eslint-config-angular/workflows/publish/badge.svg)
+
 Strict ESLint configuration for Angular projects.
 
 ## Prerequisites
