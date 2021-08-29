@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ["unicorn", "jsdoc", "import", "rxjs"],
+  plugins: ["unicorn", "jsdoc", "import", "rxjs", "sonarjs"],
   extends: [
     "eslint:recommended",
     "plugin:import/typescript",
@@ -183,6 +183,14 @@ module.exports = {
     "import/first": "warn",
     "import/no-duplicates": "warn",
     "import/newline-after-import": "warn",
+
+    // SonarJS
+    "sonarjs/no-all-duplicated-branches": "warn",
+    "sonarjs/no-element-overwrite": "warn",
+    "sonarjs/no-identical-conditions": "warn",
+    "sonarjs/no-collapsible-if": "warn",
+    "sonarjs/no-useless-catch": "warn",
+    "sonarjs/prefer-single-boolean-return": "warn",
 
     // RXjs
     "rxjs/finnish": [
