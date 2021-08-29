@@ -9,19 +9,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out Git repository
-      - uses: actions/checkout@v1
+        uses: actions/checkout@v1
 
       - name: Install Node.js
-      - uses: actions/setup-node@v1
+        uses: actions/setup-node@v1
         with:
           node-version: 14
 
       - name: Install dependencies
-      - run: npm install
+        run: npm install
 
       - name: Run tests
-      - run: npm test
+        run: npm test
 
-      - uses: JS-DevTools/npm-publish@v1
+      - name: Publish to npm
+        uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
