@@ -5,7 +5,7 @@
   "description": "Strict ESLint configuration for Angular projects.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . --config=index.js"
+    "test": "eslint . --config=index.js --env=node"
   },
   "license": "MIT",
   "files": [

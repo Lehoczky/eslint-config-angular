@@ -76,7 +76,7 @@ module.exports = {
     ],
     camelcase: "error",
     "@typescript-eslint/naming-convention": "warn",
-    "@typescript-eslint/naming-convention": "warn",
+    "@typescript-eslint/no-confusing-non-null-assertion": "warn",
     "@typescript-eslint/no-confusing-void-expression": [
       "error",
       { ignoreArrowShorthand: true },
