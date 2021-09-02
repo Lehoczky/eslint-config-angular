@@ -114,11 +114,6 @@ module.exports = {
     "@typescript-eslint/no-array-constructor": "warn",
     "no-dupe-class-members": "off",
     "@typescript-eslint/no-dupe-class-members": ["error"],
-    "no-magic-numbers": "off",
-    "@typescript-eslint/no-magic-numbers": [
-      "error",
-      { ignoreArrayIndexes: true },
-    ],
     "no-throw-literal": "off",
     "@typescript-eslint/no-throw-literal": ["error"],
     "no-useless-constructor": "off",
