@@ -186,7 +186,6 @@ module.exports = {
 
     // Import
     "import/no-useless-path-segments": "warn",
-    "import/no-relative-parent-imports": "warn",
     "import/first": "warn",
     "import/no-duplicates": "warn",
     "import/newline-after-import": "warn",
