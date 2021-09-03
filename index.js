@@ -215,7 +215,6 @@ module.exports = {
       },
     ],
     "rxjs/no-async-subscribe": "warn",
-    "rxjs/no-explicit-generics": "warn",
     "rxjs/no-exposed-subjects": ["error", { allowProtected: true }],
     "rxjs/no-ignored-takewhile-value": "warn",
     "rxjs/no-nested-subscribe": "warn",
