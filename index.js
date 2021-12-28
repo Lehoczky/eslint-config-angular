@@ -148,28 +148,6 @@ module.exports = {
     "unicorn/prefer-date-now": "warn",
     "unicorn/prefer-default-parameters": "warn",
     "unicorn/prefer-spread": "warn",
-    "unicorn/prevent-abbreviations": [
-      "warn",
-      {
-        allowList: {
-          db: true,
-          docs: true,
-          i: true,
-          j: true,
-          param: true,
-          params: true,
-          prod: true,
-          prop: true,
-          props: true,
-          ref: true,
-          refs: true,
-          req: true,
-          res: true,
-          src: true,
-          temp: true,
-        },
-      },
-    ],
 
     // JSdoc
     "jsdoc/check-alignment": "warn",
@@ -243,6 +221,5 @@ module.exports = {
     "@angular-eslint/no-lifecycle-call": "warn",
     "@angular-eslint/no-pipe-impure": "warn",
     "@angular-eslint/sort-ngmodule-metadata-arrays": "warn",
-    "@angular-eslint/use-component-view-encapsulation": "warn",
   },
 };
