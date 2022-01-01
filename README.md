@@ -13,15 +13,7 @@ Strict ESLint configuration for Angular projects.
 ## Install
 
 ```console
-npm install -D \
-  @lehoczky/eslint-config-angular \
-  eslint-config-prettier \
-  eslint-plugin-import \
-  eslint-plugin-jsdoc \
-  eslint-plugin-rxjs \
-  eslint-plugin-simple-import-sort \
-  eslint-plugin-sonarjs \
-  eslint-plugin-unicorn
+npm install -D @lehoczky/eslint-config-angular eslint-config-prettier eslint-plugin-import eslint-plugin-jsdoc eslint-plugin-rxjs eslint-plugin-simple-import-sort eslint-plugin-sonarjs eslint-plugin-unicorn
 ```
 
 ## Example
