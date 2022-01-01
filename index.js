@@ -39,7 +39,7 @@ module.exports = {
     yoda: "error",
 
     // Stylistic Issues
-    "max-depth": ["error", { max: 5 }],
+    "max-depth": ["error", { max: 3 }],
     "no-negated-condition": "error",
     "no-unneeded-ternary": "error",
 
